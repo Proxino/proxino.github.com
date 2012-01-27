@@ -197,7 +197,7 @@ p.posts {
 
 /* line 124, sass/screen.scss */
 .about {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   color: #4d4d4d;
   font-weight: 200;
 }
@@ -209,7 +209,7 @@ p.posts {
 /* line 134, sass/screen.scss */
 .site ul {
   list-style-position: outside;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 /* line 138, sass/screen.scss */
