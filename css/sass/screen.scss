@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin-bottom: 1em;
   font-size:1.2em;
-  color:darken($main-color,15%);
+  color:darken($main-color,30%);
 }
 
 p {
@@ -82,7 +82,7 @@ ul.posts {
     line-height: 1.75em;
     font-size:1em;
     a{
-      font-weight:800;
+      font-weight:400;
     }
   }
 
