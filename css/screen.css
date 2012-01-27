@@ -328,15 +328,16 @@ p.posts {
 /* line 238, sass/screen.scss */
 #post ul,
 #post ol {
+  font-family: georgia;
   margin: 20px 0px;
 }
-/* line 240, sass/screen.scss */
+/* line 241, sass/screen.scss */
 #post ul li,
 #post ol li {
   margin: 10px 0px;
 }
 
-/* line 245, sass/screen.scss */
+/* line 246, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -344,25 +345,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 252, sass/screen.scss */
+/* line 253, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 258, sass/screen.scss */
+/* line 259, sass/screen.scss */
 #post pre.terminal {
   border: 1px solid #4d4d4d;
   background-color: #666666;
   color: #e6e6e6;
 }
 
-/* line 267, sass/screen.scss */
+/* line 268, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 271, sass/screen.scss */
+/* line 272, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }
