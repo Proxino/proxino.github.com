@@ -27,7 +27,7 @@ I hear a crunching sound behind me, a shuffling. I begin to turn.
 
 “This gem is Turing complete [[1]], and that makes all the difference!”
 
-***
+p=(scene). ****
 
 “You see, Ruby grants you access to a powerful function called _puts_.” Lilu says. His six-fingered hand rests upon his blue chin. “As its name suggests, _puts_ moves things into various places. It outputs things. And consider the possibilities! You can output this evil man into a place where he can’t do you any harm. You can _puts_ him onto the screen of your computer.” He pauses. “You do have a computer, right?”
 

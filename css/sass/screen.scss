@@ -30,7 +30,7 @@ h1 {
 }
 
 p {
-  margin: 1.3em 0;
+  margin: 1.2em 0;
 }
 
 a {
@@ -55,15 +55,14 @@ strong{
 }
 
 hr{
-  color:white;
-  padding:10px;
-  border:none;
+  border:1px solid darken($main-color,5%);
+  width:30%;
 }
 
 blockquote{
   margin:0px 0px 0px 0px;
   padding:0px 0px 0px 10px;
-  border-left:3px solid darken($main-color,5%);
+  border-left:3px solid darken($main-color,2%);
 }
 em{
   font-style:italic;
@@ -215,6 +214,13 @@ p.posts{
   }
   p.meta{
     font-family:'helvetica neue';
+    font-weight:100;
+    margin-bottom:1em;
+    margin-top:.5em;
+  }
+  p.scene{
+    color:darken($main-color,30%);
+    font-size:1.2em;
     font-weight:100;
   }
 
