@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,109 +24,112 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290@taazr/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 12, sass/screen.scss */
+/* line 14, sass/screen.scss */
 body {
   background-color: white;
-  font: 14px helvetica, arial, clean, sans-serif;
+  font: 14px 'helvetica neue', arial, clean, sans-serif;
   text-align: center;
 }
 
-/* line 19, sass/screen.scss */
+/* line 21, sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: 800;
 }
 
-/* line 24, sass/screen.scss */
+/* line 26, sass/screen.scss */
 h1 {
   margin-bottom: 1em;
-}
-
-/* line 28, sass/screen.scss */
-p {
-  margin: 1em 0;
+  font-size: 1.2em;
+  color: #d9d9d9;
 }
 
 /* line 32, sass/screen.scss */
+p {
+  margin: 1.3em 0;
+}
+
+/* line 36, sass/screen.scss */
 a {
+  text-shadow: white 1px 1px 5px;
   color: #9b2629;
   text-decoration: none;
 }
 
-/* line 40, sass/screen.scss */
+/* line 45, sass/screen.scss */
 a:visited {
   color: #9b2629;
 }
 
-/* line 44, sass/screen.scss */
+/* line 49, sass/screen.scss */
 table {
   font-size: inherit;
   font: 100%;
 }
 
-/* line 48, sass/screen.scss */
+/* line 53, sass/screen.scss */
 strong {
   font-weight: 800;
 }
 
-/* line 52, sass/screen.scss */
+/* line 57, sass/screen.scss */
 hr {
   color: white;
   padding: 10px;
   border: none;
 }
 
-/* line 58, sass/screen.scss */
+/* line 63, sass/screen.scss */
 blockquote {
-  color: gray;
-  font-weight: 100;
-  margin: 0px 0px 0px 5px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  border-left: 3px solid #f2f2f2;
 }
 
-/* line 63, sass/screen.scss */
+/* line 68, sass/screen.scss */
 em {
   font-style: italic;
 }
@@ -136,25 +139,31 @@ em {
 /* Home
 /*
 /*****************************************************************************/
-/* line 72, sass/screen.scss */
+/* line 77, sass/screen.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 77, sass/screen.scss */
+/* line 82, sass/screen.scss */
 ul.posts li {
   line-height: 1.75em;
+  font-size: 1em;
+}
+/* line 85, sass/screen.scss */
+ul.posts li a {
+  font-weight: 800;
 }
 
-/* line 81, sass/screen.scss */
+/* line 90, sass/screen.scss */
 ul.posts span {
   font-size: 80%;
   color: #999999;
-  font-family: 'courier', 'monaco';
+  font-weight: 200;
+  float: right;
 }
 
-/* line 87, sass/screen.scss */
+/* line 97, sass/screen.scss */
 p.posts {
   margin-bottom: 2em;
 }
@@ -164,7 +173,7 @@ p.posts {
 /* Site
 /*
 /*****************************************************************************/
-/* line 97, sass/screen.scss */
+/* line 107, sass/screen.scss */
 .site {
   font-size: 110%;
   width: 35em;
@@ -173,103 +182,99 @@ p.posts {
   line-height: 1.5em;
 }
 
-/* line 105, sass/screen.scss */
+/* line 115, sass/screen.scss */
 .title {
   color: black;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.6em;
   margin-bottom: 1.5em;
   text-align: center;
 }
 
-/* line 112, sass/screen.scss */
+/* line 122, sass/screen.scss */
 .big {
   font-size: 1.5em;
 }
 
-/* line 115, sass/screen.scss */
+/* line 125, sass/screen.scss */
 .about {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   color: #4d4d4d;
-  font-weight: 100;
+  font-weight: 200;
 }
-/* line 119, sass/screen.scss */
+/* line 129, sass/screen.scss */
 .about a {
-  font-weight: 400;
+  font-weight: 800;
 }
 
-/* line 123, sass/screen.scss */
-.site h1 {
-  color: #3d3d3d;
-}
-
-/* line 126, sass/screen.scss */
+/* line 135, sass/screen.scss */
 .site ul {
   list-style-position: outside;
+  margin-bottom: 1em;
 }
 
-/* line 129, sass/screen.scss */
+/* line 139, sass/screen.scss */
 .site li {
   margin: 1px 0px;
 }
 
-/* line 132, sass/screen.scss */
+/* line 142, sass/screen.scss */
 .site .title a {
   color: black;
   text-decoration: none;
 }
 
-/* line 137, sass/screen.scss */
+/* line 147, sass/screen.scss */
 .site .title a:hover {
   color: black;
 }
 
-/* line 141, sass/screen.scss */
+/* line 151, sass/screen.scss */
 .site .title a.extra {
   color: #aaa;
   text-decoration: none;
   margin-left: 1em;
 }
 
-/* line 147, sass/screen.scss */
+/* line 157, sass/screen.scss */
 .site .title a.extra:hover {
   color: black;
 }
 
-/* line 151, sass/screen.scss */
+/* line 161, sass/screen.scss */
 .site .meta {
   color: #aaa;
   font-size: 1em;
 }
 
-/* line 156, sass/screen.scss */
+/* line 166, sass/screen.scss */
 .site .footer {
   font-size: 80%;
   color: #666;
   margin-top: 2em;
   overflow: hidden;
-  font-weight: 100;
+  font-weight: 200;
 }
 
-/* line 164, sass/screen.scss */
+/* line 174, sass/screen.scss */
 .site .footer .contact {
   float: left;
   margin-right: 3em;
 }
 
-/* line 169, sass/screen.scss */
+/* line 179, sass/screen.scss */
 .site .footer .contact a {
   color: #207785;
 }
 
-/* line 173, sass/screen.scss */
+/* line 183, sass/screen.scss */
 .site .footer .rss {
   margin-top: 1.1em;
   margin-right: -0.2em;
   float: right;
 }
 
-/* line 179, sass/screen.scss */
+/* line 189, sass/screen.scss */
 .site .footer .rss img {
   border: 0;
 }
@@ -279,36 +284,52 @@ p.posts {
 /* Posts
 /*
 /*****************************************************************************/
-/* line 189, sass/screen.scss */
+/* line 199, sass/screen.scss */
 #post {
   width: 100%;
   margin: 0px auto;
 }
-/* line 192, sass/screen.scss */
+/* line 202, sass/screen.scss */
 #post strong {
   font-weight: 800;
 }
 
+/* line 208, sass/screen.scss */
+#post h1 {
+  color: #4d4d4d;
+  margin: 0px;
+}
+/* line 212, sass/screen.scss */
+#post p {
+  font-family: georgia;
+  line-height: 1.6em;
+}
+/* line 216, sass/screen.scss */
+#post p.meta {
+  font-family: 'helvetica neue';
+  font-weight: 100;
+}
+
 /* standard */
-/* line 206, sass/screen.scss */
+/* line 225, sass/screen.scss */
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 213, sass/screen.scss */
+/* line 232, sass/screen.scss */
 #post ul,
 #post ol {
   margin: 20px 0px;
 }
-/* line 215, sass/screen.scss */
+/* line 234, sass/screen.scss */
 #post ul li,
 #post ol li {
   margin: 10px 0px;
 }
 
-/* line 220, sass/screen.scss */
+/* line 239, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -316,25 +337,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 227, sass/screen.scss */
+/* line 246, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 233, sass/screen.scss */
+/* line 252, sass/screen.scss */
 #post pre.terminal {
   border: 1px solid #4d4d4d;
   background-color: #666666;
   color: #e6e6e6;
 }
 
-/* line 242, sass/screen.scss */
+/* line 261, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 246, sass/screen.scss */
+/* line 265, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }
