@@ -11,13 +11,13 @@ The October 10th deadline for YCW12 approaches, and I expect that readers might 
 
 h3. What is your company going to make?
 
-This is an important question. We described exactly what our product would do.
+We described exactly what our product would do.
 
 bq.. Taazr detects bugs in live web applications through statistical inference.
 
 Think of a web application as a black box, with its inputs as HTTP requests and its outputs as HTTP response data. After a client instruments her web app with our javascript, Taazr will collect request/response data to build a model of expected behavior. When an “anomalous” response is detected, we notify our client, sending along details about the potentially faulty request/response pair.
 
-p. Don’t be vague in describing your product. Going into detail may seem to leave out the “bigger picture,” but I suspect this matters little to the readers at YC. You have the rest of your application to impart a broader vision; for this question talk specifically about what you are going to build.
+p. Don’t be vague. Going into detail may seem to leave out the “bigger picture,” but I suspect this matters little to the readers at YC. You have the rest of your application to impart a broader vision; for this question talk specifically about what you are going to build.
 
 h3. Please tell us in one or two sentences about the most impressive thing other than this startup that each founder has built or achieved.
 
@@ -27,7 +27,7 @@ bq.. Ethan was admitted to CS PhD programs at Stanford, Berkeley, and MIT for re
 
 Muzzammil is a member of the core development team for GuardRails, a secure web application framework, which will be published at USENIX 2011 and presented at RubyNation. He is also the founder of Wahoobooks, a site where U.Va. students can list used textbooks.
 
-p. We mentioned specific, verifiable achievements, which implied that we are determined people. This is a response in which you should try to avoid generalities.
+p. We mentioned specific and verifiable achievements, the substance of which implied that we are determined people. You should try to avoid generalities.
 
 h3. Please tell us about the time you most successfully hacked some (non-computer) system to your advantage.
 
@@ -35,7 +35,7 @@ A great answer here can really help you, but it was perhaps our weakest response
 
 bq. A Computer Science degree from U.Va. typically requires that you complete many courses within a variety of unrelated disciplines. Most of our peers must take classes in Physics, Chemistry, and a “fake” humanities listing called Science, Technology and Society. We escaped such requirements through a little-known option to pursue a BA in Computer Science, in place of the Engineering School’s BS. With this degree, we completed the core CS curriculum and any other classes that caught our interest, but we avoided the rigidly defined ABET requirements of the Engineering school. This left us more time to pursue research and hack on web applications.
 
-p. While Muzzammil and I aren't totally straight-laced, we couldn’t think of an interesting answer. And that was a strategic error, for a sufficiently devious answer has a great opportunity to stand out. While I like to think that the most clever subversives are the overtly boring ones, that’s not correct so far as this question is concerned. Give a better answer than we did!
+p. While Muzzammil and I aren't totally straight-laced, we couldn't think of much to say. And that was a strategic error, for a sufficiently devious answer has a great opportunity to stand out. While I like to think that the most clever subversives are the overtly boring ones, that’s not correct so far as this question is concerned. Give a better answer than we did!
 
 h3. Please tell us about an interesting project, preferably outside of class or work, that two or more of you created together. Include urls if possible.
 
@@ -69,7 +69,7 @@ Muzzammil has a year of experience with the GuardRails research group at UVA, wh
 
 More generally, Taazr was inspired by the Cooperative Bug Isolation Project[2], in combination with ideas gleaned from our respective research groups at U.Va.
 
-p. We describe our domain expertise, and slip in evidence that we can get things done. However, we do come off as a bit researchy, which I think is a bit of a risk. So convey expertise through specific accomplishments. You should be perceived as people who know what they are getting into.
+p. We describe our domain expertise, and slip in evidence that we can get things done. However, we do come off as a bit researchy, which I think is a bit of a risk. Convey expertise through specific accomplishments. You should be perceived as people who know what they are getting into.
 
 h3. What’s new about what you’re making? What substitutes do people resort to because it doesn’t exist yet (or they don’t know about it)?
 
