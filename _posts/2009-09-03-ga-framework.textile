@@ -5,7 +5,7 @@ title: A Genetic Algorithm Framework in Clojure
 
 h1. {{ page.title }}
 
-As my title suggests, I built "Gajure:":http://github.com/Ejhfast/Gajure a framework for constructing genetic algorithms in Clojure. As the definition of framework is debatable, excuse my pretension: I mean only that Gajure is something I can reuse. 
+As my title suggests, I built "Gajure:":http://github.com/Ejhfast/Gajure a framework for constructing genetic algorithms in Clojure. The definition of framework is debatable, so excuse my pretension: I mean only that Gajure is something I can reuse. 
 
 Genetic algorithms apply an evolutionary model to complex problems, and so evolve solutions from an initial population of random states. Eliding a few details, the process boils down (in lisp notation) to this:
 
