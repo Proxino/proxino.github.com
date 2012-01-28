@@ -5,7 +5,7 @@ title: A Genetic Algorithm Framework in Clojure
 
 h1. {{ page.title }}
 
-As my title suggests, I built a framework for constructing genetic algorithms in Clojure. While the definition of framework is debatable, excuse the pretension: I mean only that it's something I can reuse. 
+As my title suggests, I built "Gajure:":http://github.com/Ejhfast/Gajure a framework for constructing genetic algorithms in Clojure. As the definition of framework is debatable, excuse my pretension: I mean only that Gajure is something I can reuse. 
 
 Genetic algorithms apply an evolutionary model to complex problems, and so evolve solutions from an initial population of random states. Eliding a few details, the process boils down (in lisp notation) to this:
 
@@ -22,7 +22,7 @@ pre. (defn genetic-algorithm [some-params]
 
 We want to construct an algorithm that accepts functions for initializing, sorting, crossing over and mutating population members. It should also take population parameters (e.g. the number of generations to run, or the mutation rate). Here's what I came up with:
 
-pre. defn run-ga
+pre. (defn run-ga
   [func-map setting-map]
   (let [ipop ((:init-fn func-map) (:pop-sz setting-map))]
     (loop [pop ipop
