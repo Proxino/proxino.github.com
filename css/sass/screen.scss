@@ -14,7 +14,7 @@ $blue:#207785;
 body {
   background-color: $main-color;
   font: 14px 'helvetica neue', arial, clean, sans-serif;
-  font-family:'Lora' serif;
+  font-family:'Old Standard TT' serif;
   text-align: center;
 }
 
@@ -117,7 +117,7 @@ p.posts{
   font-weight: bold;
   font-size:2em;
   margin-top:2.3em;
-  margin-bottom: 2em;
+  margin-bottom: 40px;
   text-align:center;
   font-family:'Old Standard TT';
 }
@@ -125,8 +125,8 @@ p.posts{
   font-size:1.5em;
 }
 .about{
-  margin-bottom: 2em;
-  color:darken(white,70%);
+  margin-bottom: 40px;
+  color:darken(white,50%);
   font-weight:200;
   a{
     font-weight:800;
@@ -207,16 +207,20 @@ p.posts{
 
 }
 #post{
+  float:left;
+  margin:40px 0px;
   h1{
     color:darken($main-color,70%);
     margin:0px;
   }
   p{
-    font-family:'Lora';
+    //font-family:'Lora';
+    //font-size:1.1em;
     line-height:1.6em;
   }
   p.meta{
     font-family:'Old Standard TT';
+    font-size:1em;
     font-weight:100;
     margin-bottom:2em;
     margin-top:.5em;
@@ -239,7 +243,7 @@ p.posts{
 
   #post ul,
   #post ol {
-    font-family:georgia;
+    //font-family:georgia;
     margin:20px 0px;
     li{
       margin:10px 0px;

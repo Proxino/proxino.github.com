@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   background-color: white;
   font: 14px 'helvetica neue', arial, clean, sans-serif;
-  font-family: 'Lora' serif;
+  font-family: 'Old Standard TT' serif;
   text-align: center;
 }
 
@@ -189,7 +189,7 @@ p.posts {
   font-weight: bold;
   font-size: 2em;
   margin-top: 2.3em;
-  margin-bottom: 2em;
+  margin-bottom: 40px;
   text-align: center;
   font-family: 'Old Standard TT';
 }
@@ -201,8 +201,8 @@ p.posts {
 
 /* line 127, sass/screen.scss */
 .about {
-  margin-bottom: 2em;
-  color: #4d4d4d;
+  margin-bottom: 40px;
+  color: gray;
   font-weight: 200;
 }
 /* line 131, sass/screen.scss */
@@ -297,24 +297,29 @@ p.posts {
   font-weight: 800;
 }
 
-/* line 210, sass/screen.scss */
+/* line 209, sass/screen.scss */
+#post {
+  float: left;
+  margin: 40px 0px;
+}
+/* line 212, sass/screen.scss */
 #post h1 {
   color: #4d4d4d;
   margin: 0px;
 }
-/* line 214, sass/screen.scss */
+/* line 216, sass/screen.scss */
 #post p {
-  font-family: 'Lora';
   line-height: 1.6em;
 }
-/* line 218, sass/screen.scss */
+/* line 221, sass/screen.scss */
 #post p.meta {
   font-family: 'Old Standard TT';
+  font-size: 1em;
   font-weight: 100;
   margin-bottom: 2em;
   margin-top: .5em;
 }
-/* line 224, sass/screen.scss */
+/* line 228, sass/screen.scss */
 #post p.scene {
   color: #b3b3b3;
   font-size: 1.2em;
@@ -322,26 +327,25 @@ p.posts {
 }
 
 /* standard */
-/* line 234, sass/screen.scss */
+/* line 238, sass/screen.scss */
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 241, sass/screen.scss */
+/* line 245, sass/screen.scss */
 #post ul,
 #post ol {
-  font-family: georgia;
   margin: 20px 0px;
 }
-/* line 244, sass/screen.scss */
+/* line 248, sass/screen.scss */
 #post ul li,
 #post ol li {
   margin: 10px 0px;
 }
 
-/* line 249, sass/screen.scss */
+/* line 253, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -349,25 +353,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 256, sass/screen.scss */
+/* line 260, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 262, sass/screen.scss */
+/* line 266, sass/screen.scss */
 #post pre.terminal {
   border: 1px solid #4d4d4d;
   background-color: #666666;
   color: #e6e6e6;
 }
 
-/* line 271, sass/screen.scss */
+/* line 275, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 275, sass/screen.scss */
+/* line 279, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }
