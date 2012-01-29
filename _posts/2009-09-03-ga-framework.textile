@@ -3,7 +3,9 @@ layout: post
 title: A Genetic Algorithm Framework in Clojure
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title | upcase }}
+
+p(meta). 13 September, 2009 -- Charlottesville, VA
 
 As my title suggests, I built "Gajure:":http://github.com/Ejhfast/Gajure a framework for constructing genetic algorithms in Clojure. The definition of framework is debatable, so excuse my pretension: I mean only that Gajure is something I can reuse. 
 

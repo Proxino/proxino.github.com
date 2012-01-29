@@ -3,7 +3,7 @@ layout: post
 title: State Your Purpose
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title | upcase }}
 
 p(meta). 4 April 2011 -- Charlottesville, VA
 

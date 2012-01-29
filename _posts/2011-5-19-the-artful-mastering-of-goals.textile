@@ -3,7 +3,7 @@ layout: post
 title: The Artful Mastering of Goals
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title | upcase }}
 
 p(meta). 19 May 2011 -- Charlottesville, VA
 

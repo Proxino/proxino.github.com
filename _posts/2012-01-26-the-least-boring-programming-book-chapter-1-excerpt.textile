@@ -3,7 +3,7 @@ layout: post
 title: The Programming Djinn
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title | upcase }}
 
 p(meta). The Least Boring Programming Book teaches Ruby programming to beginners in an unconventional way. This is an early excerpt -- think alpha chapter.
 

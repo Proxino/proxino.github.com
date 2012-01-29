@@ -3,7 +3,7 @@ layout: post
 title: Deconstructing a Successful YC Application
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title | upcase }}
 
 p(meta). 4 October, 2011 -- Menlo Park, CA
 
