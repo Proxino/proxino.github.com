@@ -252,6 +252,9 @@ p.posts{
       margin:10px 0px;
     }
   }
+  #post ol{
+    list-style-type:decimal;
+  }
 
   #post code {
     border: 1px solid #ddd;

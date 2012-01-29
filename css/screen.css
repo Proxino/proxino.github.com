@@ -349,7 +349,12 @@ p.posts {
   margin: 10px 0px;
 }
 
-/* line 256, sass/screen.scss */
+/* line 255, sass/screen.scss */
+#post ol {
+  list-style-type: decimal;
+}
+
+/* line 259, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -357,25 +362,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 263, sass/screen.scss */
+/* line 266, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 269, sass/screen.scss */
+/* line 272, sass/screen.scss */
 #post pre.terminal {
   border: 1px solid #4d4d4d;
   background-color: #666666;
   color: #e6e6e6;
 }
 
-/* line 278, sass/screen.scss */
+/* line 281, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 282, sass/screen.scss */
+/* line 285, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }
