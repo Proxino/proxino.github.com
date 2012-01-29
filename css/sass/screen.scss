@@ -14,7 +14,7 @@ $blue:#207785;
 body {
   background-color: $main-color;
   font: 14px 'helvetica neue', arial, clean, sans-serif;
-  //font-family:'georgia';
+  font-family:'Lora' serif;
   text-align: center;
 }
 
@@ -27,6 +27,7 @@ h1 {
   margin-bottom: 1em;
   font-size:1.2em;
   color:darken($main-color,30%);
+  font-family:'Old Standard TT';
 }
 
 p {
@@ -114,9 +115,11 @@ p.posts{
 .title {
   color: black;
   font-weight: bold;
-  font-size:1.6em;
+  font-size:2em;
+  margin-top:2.3em;
   margin-bottom: 2em;
   text-align:center;
+  font-family:'Old Standard TT';
 }
 .big{
   font-size:1.5em;
@@ -209,11 +212,11 @@ p.posts{
     margin:0px;
   }
   p{
-    font-family:georgia;
+    font-family:'Lora';
     line-height:1.6em;
   }
   p.meta{
-    font-family:'helvetica neue';
+    font-family:'Old Standard TT';
     font-weight:100;
     margin-bottom:2em;
     margin-top:.5em;

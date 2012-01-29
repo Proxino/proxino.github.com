@@ -5,7 +5,7 @@ title: The Programming Djinn
 
 h1. {{ page.title }}
 
-p(meta). [The Least Boring Programming Book teaches Ruby programming to beginners in an unconventional way. This is an early excerpt -- think alpha chapter.]
+p(meta). The Least Boring Programming Book teaches Ruby programming to beginners in an unconventional way. This is an early excerpt -- think alpha chapter.
 
 A djinn interrupts my morning coffee. It sweeps across the room in a blaze of uncoordinated color, and hovers near the ceiling of my study. Its bright eyes glow, and it smells of cinnamon. I want to run, to scream, to panic. I do none of these things.
 
