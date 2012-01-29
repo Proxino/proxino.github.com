@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 14, sass/screen.scss */
 body {
   background-color: white;
-  font: 14px 'helvetica neue', arial, clean, sans-serif;
+  font-size: 14px;
   font-family: 'Old Standard TT' serif;
   text-align: center;
 }
@@ -312,6 +312,10 @@ p.posts {
   line-height: 1.6em;
 }
 /* line 221, sass/screen.scss */
+#post p.footnote {
+  color: gray;
+}
+/* line 224, sass/screen.scss */
 #post p.meta {
   font-family: 'Old Standard TT';
   font-size: 1em;
@@ -319,7 +323,7 @@ p.posts {
   margin-bottom: 2em;
   margin-top: .5em;
 }
-/* line 228, sass/screen.scss */
+/* line 231, sass/screen.scss */
 #post p.scene {
   color: #b3b3b3;
   font-size: 1.2em;
@@ -327,25 +331,25 @@ p.posts {
 }
 
 /* standard */
-/* line 238, sass/screen.scss */
+/* line 241, sass/screen.scss */
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 245, sass/screen.scss */
+/* line 248, sass/screen.scss */
 #post ul,
 #post ol {
   margin: 20px 0px;
 }
-/* line 248, sass/screen.scss */
+/* line 251, sass/screen.scss */
 #post ul li,
 #post ol li {
   margin: 10px 0px;
 }
 
-/* line 253, sass/screen.scss */
+/* line 256, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -353,25 +357,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 260, sass/screen.scss */
+/* line 263, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 266, sass/screen.scss */
+/* line 269, sass/screen.scss */
 #post pre.terminal {
   border: 1px solid #4d4d4d;
   background-color: #666666;
   color: #e6e6e6;
 }
 
-/* line 275, sass/screen.scss */
+/* line 278, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 279, sass/screen.scss */
+/* line 282, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }

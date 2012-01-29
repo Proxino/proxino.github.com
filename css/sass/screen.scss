@@ -13,7 +13,7 @@ $blue:#207785;
 
 body {
   background-color: $main-color;
-  font: 14px 'helvetica neue', arial, clean, sans-serif;
+  font-size: 14px;
   font-family:'Old Standard TT' serif;
   text-align: center;
 }
@@ -217,6 +217,9 @@ p.posts{
     //font-family:'Lora';
     //font-size:1.1em;
     line-height:1.6em;
+  }
+  p.footnote{
+    color:darken($main-color,50%);
   }
   p.meta{
     font-family:'Old Standard TT';
