@@ -52,12 +52,12 @@ Bullets bother me, so normal lists are set off from the adjacent paragraphs thro
 * A loyal list item tells no lies.
 * This list item betrayed me.
 
-And now we're back to a paragraph. The list is distinctly set off, yet it remains unobtrusive. Numbered lists share one additional consideration: the position of the numbers (you can't elide numbers if you want a numbered list). They go outside the column to improve flow.
+And now we're back to a paragraph. The list is distinctly set off, yet it remains unobtrusive. "This post":http://ethanfast.com/2011/04/state-your-purpose/ has a longer list, if you want a more realistic example. Numbered lists share one additional consideration: the position of the numbers (you can't elide numbers if you want a numbered list). They go outside the column to improve flow.
 
 # This number is lower, and can do nothing about it.
 # Higher numbers by birth should avoid egoism.
 
-I set block quotes by a slight margin and a subtle left border.
+I set block quotes by a slight margin and a subtle left border. They shouldn't distract.
 
 bq. I AM A SICK MAN.... I am a spiteful man. I am an unattractive man. I believe my liver is diseased. However, I know nothing at all about my disease, and do not know for certain what ails me. I don't consult a doctor for it, and never have, though I have a respect for medicine and doctors. Besides, I am extremely superstitious, sufficiently so to respect medicine, anyway (I am well-educated enough not to be superstitious, but I am superstitious). No, I refuse to consult a doctor from spite. That you probably will not understand. Well, I understand it, though. Of course, I can't explain who it is precisely that I am mortifying in this case by my spite: I am perfectly well aware that I cannot "pay out" the doctors by not consulting them; I know better than anyone that by all this I am only injuring myself and no one else. But still, if I don't consult a doctor it is from spite. My liver is bad, well -- let it get worse!
 
