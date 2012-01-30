@@ -9,10 +9,10 @@ I'm currently doing a CS PhD at Stanford. I graduated with a B.A. in Computer Sc
 
 h2. Papers
 
-* Ethan Fast, Westley Weimer, Claire Le Goues, Stephanie Forrest. _“Designing better fitness functions for automated program repair.”_ The Genetic and Evolutionary Computation Conference, 2010 ("PDF":/ga-paper.pdf)
-* Ethan Fast. _“Mutational Robustness and Automatic Program Repair.”_ Santa Fe Institute REU Paper, 2010 ("PDF":/sfi-paper.pdf)
+* Ethan Fast, Westley Weimer, Claire Le Goues, Stephanie Forrest. _“Designing better fitness functions for automated program repair.”_ The Genetic and Evolutionary Computation Conference, 2010 ("PDF":/resources/ga-paper.pdf)
+* Ethan Fast. _“Mutational Robustness and Automatic Program Repair.”_ Santa Fe Institute REU Paper, 2010
 
 h3. Presentations
 
-* _“Designing better fitness functions for automated program repair.”_ The Genetic and Evolutionary Computation Conference, 2010 ("SLIDES":/gecco-slids.pdf)
-* “Mutational Robustness and Automatic Program Repair.” Santa Fe Institute, 2010 ("SLIDES":/sfi-slides.pdf)
+* _“Designing better fitness functions for automated program repair.”_ The Genetic and Evolutionary Computation Conference, 2010 ("SLIDES":/resources/gecco-slides.pdf)
+* “Mutational Robustness and Automatic Program Repair.” Santa Fe Institute, 2010 ("SLIDES":/resources/sfi-slides.pdf)
