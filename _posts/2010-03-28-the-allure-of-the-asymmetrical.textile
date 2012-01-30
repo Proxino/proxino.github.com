@@ -7,7 +7,7 @@ h1. {{ page.title | upcase }}
 
 p(meta). 28 March, 2010 -- Charlottesville, VA
 
-Though I’ve lived in Charlottesville for two years, I haven’t taken enough advantage of the local farms. I obsess over health, and grass-fed animal products abound in the area. But I finally patronized a farm last week, and I noticed something obvious. [[1]] Farm eggs look nicer than their industrial-farm begotten counterparts.
+Though I’ve lived in Charlottesville for two years, I haven’t taken enough advantage of the local farms. I obsess over health, and grass-fed animal products abound in the area. When I finally patronized a farm last week, and I noticed something obvious. [[1]] Local eggs look nicer than their industrial-farm begotten counterparts.
 
 The local eggs appeal to my eye not due to differences in color or lighting, but through asymmetry. If you look at them closely, you see a deviation in size across the carton, a variance in color, and a sprinkling of freckles across shell exteriors. They are skewed, chaotic. In contrast, it looks like someone bleached the industrial eggs, which vary little in size across the carton. 
 

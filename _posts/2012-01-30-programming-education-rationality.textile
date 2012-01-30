@@ -20,7 +20,7 @@ Perhaps educators haven't caught up with modern trends, or infrastructural costs
 
 fn1. A metaphor to programming languages: the set of correct programs is a subset of those which type check.
 
-fn2. Want to learn? I recommend "Codecademy.":http://codecademy.com I'm also writing "a book":/2012/01/the-least-boring-programming-book-chapter-1-excerpt/
+fn2. Want to learn? I recommend "Codecademy.":http://codecademy.com I'm also writing "a book.":/2012/01/the-least-boring-programming-book-chapter-1-excerpt/
 
 fn3. And even there it's taught as an elective. 
 
