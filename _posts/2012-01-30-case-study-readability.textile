@@ -43,7 +43,7 @@ Paragraphs stand out from one another, but not too much.
 
 h2. Content Scaling
 
-A centered column fits well on most screen sizes, and since its width is em-based, it scales with the zoom-level. Hit _cmd+_ or _cmd--_ a few times, and you should find the effect generally pleasing.
+A centered column fits well on most screen sizes, and since its width is em-based, it scales with the zoom-level. Hit CMD+ or CMD-- a few times, and you should find the effect generally pleasing.
 
 h2. Lists, Block-quotes, and Code
 
@@ -52,7 +52,7 @@ Bullets bother me, so normal lists are set off from the adjacent paragraphs thro
 * A loyal list item tells no lies.
 * This list item betrayed me.
 
-And now we're back to a paragraph. The list is distinctly set off, yet it remains unobtrusive. Numbered lists share one additional consideration: the position of the numbers (you can't elide numbers in a numbered list). They go outside the column to improve flow.
+And now we're back to a paragraph. The list is distinctly set off, yet it remains unobtrusive. Numbered lists share one additional consideration: the position of the numbers (you can't elide numbers if you want a numbered list). They go outside the column to improve flow.
 
 # This number is lower, and can do nothing about it.
 # Higher numbers by birth should avoid egoism.
@@ -79,13 +79,13 @@ I'll consider adding syntax highlighting, but for now it's set off nicely enough
 
 h2. Headings and links
 
-Size and *boldness* offset the headings. Links are colored "red":/. ALL-CAPS headings serve as a second level of differentiation. I didn't want the headings to be significantly larger than the content text, but that's by not a universal principal.
+Size and *boldness* offset the headings. Links are colored "red":/. ALL-CAPS headings serve as a second level of differentiation. I didn't want the headings to be significantly larger than the content text, but that's not a universal principal.
 
 I took inspiration here from the style of academic papers.
 
 h2. The Whole
 
-Aesthetics are subjective, so this section I'll leave to you. Yet whether or not the effect of my design succeeded, we should give more thought to typography on the web. As Edward Tufte said:
+Aesthetics are subjective, so this section I'll leave to you. Yet whether or not the effect of my design succeeded, we should give more thought to readability on the web. As Edward Tufte said:
 
 bq. Good design is a lot like clear thinking made visual.
 
