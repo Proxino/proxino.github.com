@@ -15,7 +15,7 @@ A few considerations stood out, as my thoughts turned over design decisions. For
 # The column width minimizes lateral movement of the eyes.
 # Whitespace has meaning.
 # Content scales well at different screen sizes and zoom levels.
-# Lists, block-quotes, and code are distinct, but fit the flow of the page.
+# Lists, block quotes, and code are distinct, but fit the flow of the page.
 # Headings and links are apparent, but not obtrusive.
 # The whole is aesthetically pleasing.
 
