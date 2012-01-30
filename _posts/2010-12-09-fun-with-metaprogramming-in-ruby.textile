@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Metaprogramming Ruby
+post_date: 9 December, 2010 -- Vienna, VA
 ---
 
 h1. {{ page.title | upcase }}
+
+p(meta). {{ page.post_date || upcase }}
+
 
 I just finished the book "Metaprogramming Ruby":http://pragprog.com/titles/ppmetr/metaprogramming-ruby, and I’ve stepped away with a much deeper appreciation for some attributes of the Ruby language. I’m a fan of Clojure, so I was pleased to discover that Ruby’s object model has a dynamism that begs comparison to the _data-is-code_ philosophy of more lispy languages. For more on this (although I don't agree with all the article’s conclusions), read "Why Ruby is an Acceptable Lisp":http://www.randomhacks.net/articles/2005/12/03/why-ruby-is-an-acceptable-lisp.
 

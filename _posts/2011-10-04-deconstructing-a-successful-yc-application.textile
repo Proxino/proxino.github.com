@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Deconstructing a Successful YC Application
+post_date: 4 October, 2011 -- Menlo Park, CA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 4 October, 2011 -- Menlo Park, CA
+p(meta). {{ page.post_date || upcase }}
+
 
 The October 10th deadline for YCW12 approaches, and I expect that readers might appreciate a deconstruction of the successful application Muzzammil and I turned in last summer. Before I begin, a word of warning: At the time, we were both undergraduates, and we hadn’t yet built our product. I’ll go through our responses one by one.
 

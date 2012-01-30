@@ -1,11 +1,12 @@
 ---
 layout: post
 title: A Case Study in Readability
+post_date: 30 January, 2012 -- Menlo Park, CA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 30 January, 2012 -- Menlo Park, CA
+p(meta). {{ page.post_date || upcase }}
 
 My VPS disappointed my blog and me. It failed, my trust withered. But I twisted this misfortune and took the opportunity to redesign my blog. I migrated it to "Github":http://pages.github.com/, and its design began to evolve. Here's a recounting of that evolution.
 

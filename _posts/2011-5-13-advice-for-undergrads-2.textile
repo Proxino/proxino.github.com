@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Advice for Undergrads
+post_date: 13 May 2011 -- Vienna, VA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 13 May 2011 -- Vienna, VA
+p(meta). {{ page.post_date || upcase }}
 
 My time at UVa has proven surprisingly useful. Not so long ago, I was a high school senior, counting out paths to a poorly defined ambition. I’ve learned a great deal since then, but the most important lessons were not at all what I would have expected as a high school student. And so I say ‘surprisingly’. What’s useful is not always obvious at first.
 

@@ -1,11 +1,13 @@
 ---
 layout: post
 title: State Your Purpose
+post_date: 4 April 2011 -- Charlottesville, VA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 4 April 2011 -- Charlottesville, VA
+p(meta). {{ page.post_date || upcase }}
+
 
 Now that my admission cycle is over, and the dust has cleared, I’d like to write a few posts about the grad school application process. This first post will be about crafting your statement of purpose (sometimes known as a “personal statement”). It’s a statement that broadly describes your reasons for pursuing a PhD at a particular university.
 

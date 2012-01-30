@@ -1,11 +1,13 @@
 ---
 layout: post
 title: On Parallelism in Gajure
+post_date: 7 October, 2009 -- Charlottesville, VA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 7 October, 2009 -- Charlottesville, VA
+p(meta). {{ page.post_date || upcase }}
+
 
 Recently, I read about some experiments in "parallel genetic programming":http://jan.rychter.com/enblog/2009/8/26/experiments-with-parallel-genetic-programming-in-clojure.html, and I decided to run my own with "Gajure":http://github.com/Ejhfast/Gajure. Since I wrote Gajure in Clojure, I added parallelism without difficulty. All I needed was to change out a few of my _map_ functions with _pmap_, its parallel counterpart. This took literally a few seconds — for instance, the core selection function _roulette-select_ changed by two characters:
 

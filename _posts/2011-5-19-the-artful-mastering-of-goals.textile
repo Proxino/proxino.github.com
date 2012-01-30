@@ -1,11 +1,13 @@
 ---
 layout: post
 title: The Artful Mastering of Goals
+post_date: 19 May 2011 -- Charlottesville, VA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 19 May 2011 -- Charlottesville, VA
+p(meta). {{ page.post_date || upcase }}
+
 
 I’ve been thinking lately about thinking: how to optimally construct mental frameworks that encourage long-run success. As part of this metacognition, I’ve thought about goals, and I’ve come to some unintuitive conclusions. While goals are generally useful, goal-oriented thinking (if taken too far) can encourage an undesirable cognitive bias.
 

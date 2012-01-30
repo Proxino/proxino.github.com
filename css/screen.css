@@ -318,7 +318,7 @@ p.posts {
 /* line 225, sass/screen.scss */
 #post p.meta {
   font-family: 'Old Standard TT';
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 100;
   margin-bottom: 2em;
   margin-top: .5em;

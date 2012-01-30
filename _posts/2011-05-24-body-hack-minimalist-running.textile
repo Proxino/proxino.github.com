@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Minimalist Running
+post_date: 24 May 2011 -- Vienna, VA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 24 May 2011 -- Vienna, VA
+p(meta). {{ page.post_date || upcase }}
+
 
 A year ago, I bought my first pair of "Vibram Fivefingers":http://www.vibramfivefingers.com/index.htm and went running over snow-covered trails. I soon transitioned from the vibrams to a purely barefoot style, then began to mix up barefoot and shod running days. I've seen a number of positive changes in my running, and I think that adopting a minimalist style is the single best thing a runner can do to improve his or her imperfect form.
 

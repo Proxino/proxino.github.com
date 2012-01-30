@@ -1,11 +1,13 @@
 ---
 layout: post
 title: The Allure of the Asymmetrical
+post_date: 28 March, 2010 -- Charlottesville, VA
 ---
 
 h1. {{ page.title | upcase }}
 
-p(meta). 28 March, 2010 -- Charlottesville, VA
+p(meta). {{ page.post_date || upcase }}
+
 
 Though I’ve lived in Charlottesville for two years, I haven’t taken enough advantage of the local farms. I obsess over health, and grass-fed animal products abound in the area. But when I finally patronized a farm last week, I noticed something obvious. [[1]] Local eggs look nicer than their industrial-farm begotten counterparts.
 
