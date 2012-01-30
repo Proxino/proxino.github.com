@@ -7,9 +7,9 @@ h1. {{ page.title | upcase }}
 
 I'm doing a CS PhD at Stanford. I graduated with a B.A. in Computer Science from the University of Virginia.
 
-h2. Current Project(s)
+h2. Current Work
 
-I'm working on a derivation-checking "rewrite rule system":http://en.wikipedia.org/wiki/Rewriting_system, for use in online education. 
+* A derivation-checking "rewrite rule system":http://en.wikipedia.org/wiki/Rewriting_system, for use in online education.
 
 h2. Papers
 
