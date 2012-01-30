@@ -21,7 +21,7 @@ A few considerations stood out, as my thoughts turned over design decisions. For
 
 Readability concerned me primarily. Aesthetics were secondary (stuffed tersely into #7). With this list in mind, my work began.
 
-h2. Type-face
+h2. Typeface
 
 Serif typefaces read more easily to my eyes (perhaps to others, too [[1]]), so this narrowed the scope of my choice. "Google web fonts":http://www.google.com/webfonts#ChoosePlace:select provides a wonderful way to explore free typefaces, and I decided upon Old Standard TT. A sample:
 
@@ -31,7 +31,7 @@ Serif typefaces read more easily to my eyes (perhaps to others, too [[1]]), so t
 
 Other great options exist. Lora and Amethysta contended for the position, but lost. Also, my thanks to "Beautiful Web Type":http://hellohappy.org/beautiful-web-type/ for inspiration.
 
-h2. Column-width
+h2. Column width
 
 My blog forks that of "Tom Werner":http://tom.preston-werner.com/, and so he deserves credit for its width, which is 35em on a 14px font-size. A relatively narrow column makes scanning text easy. I read faster on a Kindle, since it has a smaller column-width than most print novels. Why shouldn't my blog offer the same performance?
 
@@ -45,7 +45,7 @@ h2. Content Scaling
 
 A centered column fits well on most screen sizes, and since its width is em-based, it scales with the zoom-level. Hit CMD+ or CMD-- a few times, and you should find the effect generally pleasing.
 
-h2. Lists, Block-quotes, and Code
+h2. Lists, Block quotes, and Code tags
 
 Bullets bother me, so normal lists are set off from the adjacent paragraphs through use of whitespace. I space list elements with less vertical whitespace than that of their margin with adjoining paragraphs. For instance:
 
@@ -57,7 +57,7 @@ And now we're back to a paragraph. The list is distinctly set off, yet it remain
 # This number is lower, and can do nothing about it.
 # Higher numbers by birth should avoid egoism.
 
-I set block-quotes by a slight margin and a subtle left border.
+I set block quotes by a slight margin and a subtle left border.
 
 bq. I AM A SICK MAN.... I am a spiteful man. I am an unattractive man. I believe my liver is diseased. However, I know nothing at all about my disease, and do not know for certain what ails me. I don't consult a doctor for it, and never have, though I have a respect for medicine and doctors. Besides, I am extremely superstitious, sufficiently so to respect medicine, anyway (I am well-educated enough not to be superstitious, but I am superstitious). No, I refuse to consult a doctor from spite. That you probably will not understand. Well, I understand it, though. Of course, I can't explain who it is precisely that I am mortifying in this case by my spite: I am perfectly well aware that I cannot "pay out" the doctors by not consulting them; I know better than anyone that by all this I am only injuring myself and no one else. But still, if I don't consult a doctor it is from spite. My liver is bad, well -- let it get worse!
 
