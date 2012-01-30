@@ -5,7 +5,7 @@ title: Programming, Education, and Rationality
 
 h1. {{ page.title | upcase }}
 
-p(meta). 30 January 2012 -- Menlo Park, CA
+p(meta). 29 January 2012 -- Menlo Park, CA
 
 Do you hold a consistent mental model of the world? For many of us (though less likely for the readers of this blog), the answer is “no.” That’s troubling. It’s hard to be correct, if your world-view doesn’t even type check. [[1]] People are entitled to opinions. But hold them in a state of contradiction, and they're wrong. 
 
