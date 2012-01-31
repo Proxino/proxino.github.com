@@ -8,9 +8,9 @@ h1. {{ page.title | upcase }}
 
 p(meta). {{ page.post_date || upcase }}
 
-My VPS disappointed my blog and me. It failed, my trust withered. But I twisted this misfortune and took the opportunity to redesign my blog. I migrated it to "Github":http://pages.github.com/, and its design began to evolve. Here's a recounting of that evolution.
+My VPS disappointed my blog and me. It failed, my trust withered. But I twisted this misfortune and took the opportunity to redesign my blog. I migrated it to "Github":http://pages.github.com/, and its design evolved. Here's a recounting of that evolution.
 
-A few considerations stood out, as my thoughts turned over design decisions. For me, a few things happen on an ideal blog:
+As my thoughts turned over design decisions, a few considerations stood out. For me, on an ideal blog:
 
 # The typeface reads enjoyably.
 # The column width minimizes lateral movement of the eyes.
