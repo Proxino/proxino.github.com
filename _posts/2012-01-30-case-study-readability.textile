@@ -24,13 +24,13 @@ Readability concerned me primarily. Aesthetics were secondary (stuffed tersely i
 
 h2. Typeface
 
-Serif typefaces read more easily to my eyes (perhaps to others, too [[1]]), so this narrowed the scope of my choice. "Google web fonts":http://www.google.com/webfonts#ChoosePlace:select provides a wonderful way to explore free typefaces, and I decided upon Old Standard TT. A sample:
+Serif typefaces read more easily to my eyes (perhaps to others, too [[1]]), so this narrowed the scope of my choice. "Google web fonts":http://www.google.com/webfonts#ChoosePlace:select provides a wonderful way to explore free typefaces, and I decided upon Lora. A sample:
 
-* I wrote this in Old Standard TT.
-* *I wrote this in Old Standard TT.*
-* _I wrote this in Old Standard TT._
+* I wrote this in Lora.
+* *I wrote this in Lora.*
+* _I wrote this in Lora._
 
-Other great options exist. Lora and Amethysta contended for the position, but lost. Also, my thanks to "Beautiful Web Type":http://hellohappy.org/beautiful-web-type/ for inspiration.
+Other great options exist. Old Standard TT and Amethysta contended for the position, but lost. Also, my thanks to "Beautiful Web Type":http://hellohappy.org/beautiful-web-type/ for inspiration.
 
 h2. Column width
 
