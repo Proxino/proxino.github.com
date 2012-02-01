@@ -1,0 +1,33 @@
+---
+layout: post
+title: Startup Paleo on $10 a Day
+post_date: 1 February, 2012 -- Menlo Park, CA
+---
+
+h1. {{ page.title | upcase }}
+
+p(meta). {{ page.post_date || upcase }}
+
+With some reservations, I follow a Paleo lifestyle. [[1]] I make diet and health a priority, and from what I've seen in the Valley, so do many other startup founders. Valley entrepreneurs are a fit bunch. [[2]] Maybe it's our narcissism, but I doubt it. Founders tend to optimize, and why should the body be excluded?
+
+But until they become rich, many founders are poor. So how can they be Paleo? Isn't it expensive? Not necessarily. Most people associate three types of food with paleolithic nutrition: meat, fruit and vegetables. That's costly stuff, but it's not the only option. [[3]] It turns out that a more price-sensitive founder should consider eggs and potatoes.
+
+In the spirit of optimization, I ran a back of the envelope calculation. I wondered just how low I could get my food costs, if I tried in ernest. [[4]] But I gave myself two constraints. I needed the meals to provide at least 2,700 calories a day, and they also had to achieve the recommended daily values for all nutrients. 
+
+Were I to live as a monk, I can support myself at under than $10 a day. That's as much as some people spend for one meal, eating out. And this plan maximizes all the nutrients on Nutritiondata. [[5]]
+
+The budget menu does break down monotonously: 9 eggs and 4 lbs of sweet potatoes [[6]] constitute the daily staples. These foods are cheap and extraordinarily nutrient-rich. Meat and vegetables only come as occasional luxuries. Given a choice, I would never eat this way. But I could, and that's the important thing. 
+
+A healthy diet doesn't need to be expensive.
+
+fn1. The Paleo label is useful, but misleading. While abstract evolutionary theory leads to Paleo conclusions, I follow the subset of Paleo supported by empirical science (this is a surprisingly large subset). See Kurt Harris and Matt LaLonde for more on this.
+
+fn2. YC founders are over-represented in this observation, and the hackers I've met at YC don't at all fit the typical neck-beard stereotypes. 
+
+fn3. There's a bit of an argument about what constitutes proper Paleo. A good rule of thumb is to ignore anything not supported by biological models or empirical evidence.
+
+fn4. While I'm price-conscious, I've no compunction against spending money on good food.
+
+fn5. Nutritiondata is a useful site for tracking vitamin intake.
+
+fn6. Price breakdown: 9 eggs cost $1.50 (you can by 18 for $3), and 4 lbs of sweet potatoes cost $6 (at $1.50/lb). That leaves enough left over to buy butter (for cooking the potatoes, extra calories), and to have meat and vegetables a few times a week.
