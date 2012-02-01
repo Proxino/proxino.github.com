@@ -13,17 +13,19 @@ $blue:#207785;
 $code:#4d719f;
 
 body {
-  background-color: $main-color;
+  background-color: darken($main-color,30%);
   font-size: 14px;
-  font-family:'Old Standard TT' serif;
+  //font-family:'Old Standard TT' serif;
   text-align: center;
-  font-family:'Lora';
+  //font-family:'lora';
+  font-family:'Gudea';
   
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight:800;
+  font-family:'Gudea';
 }
 
 h1 {
@@ -107,22 +109,40 @@ p.posts{
 /*
 /*****************************************************************************/
 
-.site {
+#content{
+  width:30em;
+  width: 30em;
   font-size: 110%;
-  width: 35em;
   text-align: left;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
+.site {
+  width: 60em;
+  text-align: left;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+  background-color:$main-color;
+}
 
 .title {
-  color: black;
-  font-weight: bold;
-  font-size:2em;
-  margin-top:2.3em;
-  margin-bottom: 40px;
+  width:100%;
+  font-size:1.7em;
+  font-family:'helvetica neue',helvetica;
+  font-weight:200;
+  margin-top:0em;
   text-align:center;
-  //font-family:'Old Standard TT';
+  color:darken($main-color,70%);
+  padding:60px 0px;
+  border-bottom:1px solid darken($main-color,10%);
+  a {
+    color: $red;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+  }
+  
 }
 .big{
   font-size:1.5em;
@@ -144,24 +164,6 @@ p.posts{
   .site li{
     margin:1px 0px;
   }
-  .site .title a {
-    color: black;
-    text-decoration: none;
-  }
-
-  .site .title a:hover {
-    color: black;
-  }
-
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
-
-  .site .title a.extra:hover {
-    color: black;
-  }
 
   .site .meta {
     color: #aaa;
@@ -172,6 +174,7 @@ p.posts{
     font-size: 80%;
     color: #666;
     margin-top: 2em;
+    padding-bottom:2em;
     overflow: hidden;
     font-weight:200;
   }
@@ -210,11 +213,12 @@ p.posts{
 
 }
 #post{
-  float:left;
+  //float:left;
   margin:40px 0px;
   h1{
     color:darken($main-color,70%);
     margin:0px;
+    text-align:center;
   }
   p{
     //font-family:'Lora';
@@ -228,8 +232,12 @@ p.posts{
     //font-family:'Old Standard TT';
     font-size:.8em;
     font-weight:100;
-    margin-bottom:2em;
+    margin-bottom:3em;
     margin-top:.5em;
+    font-family:'Gudea';
+    text-align:center;
+
+    
   }
   p.scene{
     color:darken($main-color,30%);
