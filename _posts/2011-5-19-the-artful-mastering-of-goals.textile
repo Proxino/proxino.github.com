@@ -13,7 +13,7 @@ I’ve been thinking lately about thinking: how to optimally construct mental fr
 
 A goal is not the same as the motivation which brought it into existence, but is rather more precisely defined. This precision makes a goal useful — it provides an unambiguous measure of progress — but it also creates a subtle danger. Goals are lossy with respect to their motivating principles. Look at one goal, and it tells you little about why it exists, or what aspirations were its fundamental cause. 
 
-In setting goals, you lower a complex abstraction — the nature of your self — into the veins of reality. They suggest what you are, but they are not _you_. And this is the danger. You can become so ruthless at achieving your goals that you abandon the underlying motivations which brought them into existence. You can master the how, but lose the why.
+In setting goals, you lower a complex abstraction — the nature of your self — into the veins of reality. Goals suggest what you are, but they are not _you_. And this is the danger. You can become so ruthless at achieving goals that you abandon the underlying motivations which brought them into existence. You can master the how, but lose the why.
 
 Suppose you set a goal for various reasons. Over time, it grows in importance, and you invest in it as a measure of progress. You meet with some initial success, and become excited. You begin to define yourself by the goal. Slowly, it usurps its originating abstraction, and deposes the information-rich motivations of self. Not good. You've shaved the dimensions of your character into neat and precise edges.
 
