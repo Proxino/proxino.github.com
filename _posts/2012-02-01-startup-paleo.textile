@@ -8,7 +8,7 @@ h1. {{ page.title | upcase }}
 
 p(meta). {{ page.post_date || upcase }}
 
-With some reservations, I follow a Paleo lifestyle. [[1]] I make diet and health a priority, and from what I've seen in the Valley, so do many other startup founders. Valley entrepreneurs are fit. [[2]] Maybe it's our narcissism, but I doubt it. Founders tend to optimize, and why exclude the body?
+With some reservations, I follow a Paleo lifestyle. [[1]] I make diet and health a priority, and from what I've seen in the Valley, so do many other startup founders. Valley entrepreneurs are fit. [[2]] Maybe it's our narcissism at work, but I doubt it. Founders tend to optimize, and why exclude the body?
 
 But until they become rich, many founders are poor. So how can they be Paleo? Isn't it expensive? Not necessarily. Most people associate three types of food with paleolithic nutrition: meat, fruit and vegetables. That's costly stuff, but it's not the only option. [[3]] It turns out that a more price-sensitive founder should consider eggs and potatoes.
 
