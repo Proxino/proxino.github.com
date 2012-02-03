@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automatic Regression Testing in Javascript
+title: Automatic Regression Testing in JavaScript
 post_date: 3 February, 2012 -- Menlo Park, CA
 ---
 
