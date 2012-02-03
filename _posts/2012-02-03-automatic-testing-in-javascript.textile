@@ -11,7 +11,8 @@ p(meta). {{ page.post_date || upcase }}
 I don't like writing test cases, and at "Hirewolf":http://hirewolf.com I don't write them -- my browser does. I cannot overstate the convenience of automation. To generate 800 test cases, I do this:
 
 pre. AngelJS.testcases = 200
-// I want to test add_all, my_prop_is_true, fullname, and join_char
+// I want to test add_all, my_prop_is_true, fullname, 
+// and join_char
 AngelJS.test = 
   [{ func: add_all, 
     args: [AngelJS.arr("number")], 
