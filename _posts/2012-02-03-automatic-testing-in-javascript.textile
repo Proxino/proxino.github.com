@@ -67,7 +67,7 @@ pre. [{name: "string",
     address: "string1", 
     number: 7036985777}] }]
 
-I use *AngelJS.arr(type)* to generate parameter arrays of a given _type_ (whereas JavaScript array notation [] specifies tuples). These are of pseudo-random length, something which can be adjusted in the framework.
+I use *AngelJS.arr(type)* to generate arbitrarily long parameter arrays of a given _type_ (whereas the JavaScript array notation [] specifies fixed-length tuples). Array length is pseudo-random, and can be adjusted in the framework.
 
 pre. AngelJS.arr("string")
 // Might generate ["string1","string2"]
