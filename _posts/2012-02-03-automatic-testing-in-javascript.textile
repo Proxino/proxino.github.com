@@ -63,9 +63,13 @@ pre. [{name: "string",
 // Might generate
 [{ name: "string1", 
   contacts: [{
-    name: "string2", 
-    address: "string3", 
-    number: 7036985777}] }]
+      name: "string2", 
+      address: "string3", 
+      number: 7036985777}
+    { name: "string4", 
+      address: "string5", 
+      number: 999899999}
+    ]}]
 
 I use *AngelJS.arr(type)* to generate arbitrarily long parameter arrays of a given _type_ (whereas the JavaScript array notation [] specifies fixed-length tuples). Array length is pseudo-random, and can be adjusted in the framework.
 
