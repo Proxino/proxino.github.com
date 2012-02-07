@@ -48,7 +48,7 @@ A centered column fits well on most screen sizes, and since its width is em-base
 
 h2. Lists, Block quotes, and Code tags
 
-Bullets bother me, so normal lists are set off from the adjacent paragraphs through use of whitespace. I space list elements with less vertical whitespace than that of their margin with adjoining paragraphs. For instance:
+Bullets set off normal lists, as does the adjacent whitespace. I space list elements with no extra vertical spacing. For instance:
 
 * A loyal list item tells no lies.
 * This list item betrayed me.

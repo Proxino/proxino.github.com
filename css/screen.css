@@ -148,7 +148,6 @@ ul.posts {
 
 /* line 87, sass/screen.scss */
 ul.posts li {
-  line-height: 1.75em;
   font-size: 1em;
 }
 /* line 90, sass/screen.scss */
@@ -235,11 +234,6 @@ p.posts {
 .site ul {
   list-style-position: outside;
   margin-bottom: 2em;
-}
-
-/* line 164, sass/screen.scss */
-.site li {
-  margin: 1px 0px;
 }
 
 /* line 168, sass/screen.scss */
@@ -345,20 +339,15 @@ p.posts {
 /* line 262, sass/screen.scss */
 #post ul,
 #post ol {
-  margin: 20px 0px;
-}
-/* line 265, sass/screen.scss */
-#post ul li,
-#post ol li {
-  margin: 10px 0px;
+  list-style-type: disc;
 }
 
-/* line 269, sass/screen.scss */
+/* line 270, sass/screen.scss */
 #post ol {
   list-style-type: decimal;
 }
 
-/* line 273, sass/screen.scss */
+/* line 274, sass/screen.scss */
 #post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -366,25 +355,25 @@ p.posts {
   padding: 0 .2em;
 }
 
-/* line 280, sass/screen.scss */
+/* line 281, sass/screen.scss */
 #post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 286, sass/screen.scss */
+/* line 287, sass/screen.scss */
 #post pre.terminal {
   border: 1px solid #4d4d4d;
   background-color: #666666;
   color: #e6e6e6;
 }
 
-/* line 295, sass/screen.scss */
+/* line 296, sass/screen.scss */
 #related {
   margin-top: 2em;
 }
 
-/* line 299, sass/screen.scss */
+/* line 300, sass/screen.scss */
 #related h2 {
   margin-bottom: 1em;
 }
