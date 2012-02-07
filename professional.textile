@@ -5,10 +5,4 @@ title: Professional
 
 h1. {{ page.title | upcase }}
 
-I'm now working on "Hirewolf":http://hirewolf.com. 
-
-h2. Work History
-
-After college I co-founded "Proxino":http://proxino.com, which graduated from <a href="http://ycombinator.com">Y Combinator</a> in the summer of 2011. I've also run my own consulting shop. 
-
-A few years ago, I taught robotics at "Fairfax Collegiate":http://www.fairfaxcollegiate.com/. 
+I'm now working on "Proxino":http://proxino.com, which graduated from <a href="http://ycombinator.com">Y Combinator</a> in the summer of 2011.
