@@ -51,6 +51,10 @@ header{
     font-weight:800;
     color:white;
     padding:12px 0px;
+    a{
+      text-decoration:none;
+      color:inherit;
+    }
     img{
       display:inline;
       clear:none;
@@ -73,6 +77,11 @@ header{
   .title{
     width:$main-width;
     position:relative;
+    a #cloud{
+      text-decoration:none;
+      color:inherit;
+      cursor:default;
+    }
     #cloud{
       position:absolute;
       width:275px;
@@ -291,7 +300,18 @@ header{
 
 footer{
   width:100%;
+  height:70px;
   @include linear-gradient(lighten(black,30%), lighten(black,20%) 60%);
-  height:200px;
-  
+  ul{
+    position:relative;
+    top:20px;
+    width:$main-width;
+    margin:0px auto;
+    list-style-type:none;
+    color:darken(white,30%);
+    li{
+      display:inline;
+      margin:0px 20px 0px 0px;
+    }
+  }
 }

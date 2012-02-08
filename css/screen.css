@@ -123,11 +123,16 @@ header .title {
   padding: 12px 0px;
 }
 /* line 54, sass/screen.scss */
+header .title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 58, sass/screen.scss */
 header .title img {
   display: inline;
   clear: none;
 }
-/* line 58, sass/screen.scss */
+/* line 62, sass/screen.scss */
 header .title .sub {
   font-weight: 100;
   color: #e6e6e6;
@@ -136,7 +141,7 @@ header .title .sub {
   margin: 10px 0px 0px 10px;
 }
 
-/* line 71, sass/screen.scss */
+/* line 75, sass/screen.scss */
 #top_nav {
   z-index: 1;
   width: 100%;
@@ -150,13 +155,19 @@ header .title .sub {
   border-top: 1px solid #bbcbd8;
   border-bottom: 1px solid #bbcbd8;
 }
-/* line 73, sass/screen.scss */
+/* line 77, sass/screen.scss */
 #top_nav .title {
   width: 900px;
   position: relative;
   margin: 64px auto 64px auto;
 }
-/* line 76, sass/screen.scss */
+/* line 80, sass/screen.scss */
+#top_nav .title a #cloud {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+/* line 85, sass/screen.scss */
 #top_nav .title #cloud {
   position: absolute;
   width: 275px;
@@ -168,7 +179,7 @@ header .title .sub {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-/* line 87, sass/screen.scss */
+/* line 96, sass/screen.scss */
 #top_nav .title #cloud button {
   position: relative;
   top: 110px;
@@ -180,31 +191,31 @@ header .title .sub {
   color: #4d4d4d;
   font-size: 1.5em;
 }
-/* line 103, sass/screen.scss */
+/* line 112, sass/screen.scss */
 #top_nav .title #cloud:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
-/* line 106, sass/screen.scss */
+/* line 115, sass/screen.scss */
 #top_nav .title h1 {
   position: relative;
   z-index: 3;
   font-size: 2.5em;
   margin: 16px 0px;
 }
-/* line 113, sass/screen.scss */
+/* line 122, sass/screen.scss */
 #top_nav .title span {
   position: relative;
   z-index: 3;
 }
-/* line 128, sass/screen.scss */
+/* line 137, sass/screen.scss */
 #top_nav ul {
   width: 900px;
   margin: 0px auto;
   font-weight: 800;
   color: #333333;
 }
-/* line 134, sass/screen.scss */
+/* line 143, sass/screen.scss */
 #top_nav ul li {
   font-size: .8em;
   display: inline;
@@ -212,7 +223,7 @@ header .title .sub {
   padding: 16px 32px;
   background-color: #ebf0f4;
 }
-/* line 144, sass/screen.scss */
+/* line 153, sass/screen.scss */
 #top_nav ul li#selected {
   background-color: white;
   border-top: 1px solid #bbcbd8;
@@ -221,61 +232,61 @@ header .title .sub {
   border-bottom: none;
   color: black;
 }
-/* line 152, sass/screen.scss */
+/* line 161, sass/screen.scss */
 #top_nav ul li:hover {
   background-color: #abbece;
 }
 
-/* line 158, sass/screen.scss */
+/* line 167, sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 162, sass/screen.scss */
+/* line 171, sass/screen.scss */
 #content {
   width: 900px;
   margin: 32px auto;
 }
-/* line 165, sass/screen.scss */
+/* line 174, sass/screen.scss */
 #content .sec + .sec {
   margin-top: 2em;
 }
-/* line 169, sass/screen.scss */
+/* line 178, sass/screen.scss */
 #content .sec h1 {
   font-size: 2em;
 }
-/* line 171, sass/screen.scss */
+/* line 180, sass/screen.scss */
 #content .sec h1 span.num {
   font-size: 1.5em;
   color: #b3b3b3;
   margin: 0px 10px 0px 0px;
 }
-/* line 177, sass/screen.scss */
+/* line 186, sass/screen.scss */
 #content .sec .half, #content .sec .full {
   margin: 32px 4% 0px 0px;
   display: block;
   width: 46%;
   float: left;
 }
-/* line 182, sass/screen.scss */
+/* line 191, sass/screen.scss */
 #content .sec .half img, #content .sec .full img {
   max-width: 94%;
   padding: 3%;
   background-color: #f2f2f2;
   border: 1px solid #e6e6e6;
 }
-/* line 188, sass/screen.scss */
+/* line 197, sass/screen.scss */
 #content .sec .half h1, #content .sec .full h1 {
   font-size: 1.1em;
   font-weight: 800;
   margin: 0px 0px 16px 0px;
 }
-/* line 193, sass/screen.scss */
+/* line 202, sass/screen.scss */
 #content .sec .half p, #content .sec .full p {
   font-size: 1.1em;
   line-height: 1.6em;
 }
-/* line 197, sass/screen.scss */
+/* line 206, sass/screen.scss */
 #content .sec .half textarea, #content .sec .full textarea {
   width: 96%;
   padding: 2%;
@@ -283,7 +294,7 @@ header .title .sub {
   border: 1px solid #e6e6e6;
   font-size: 1em;
 }
-/* line 204, sass/screen.scss */
+/* line 213, sass/screen.scss */
 #content .sec .half button, #content .sec .full button {
   display: inline;
   border: none;
@@ -299,66 +310,66 @@ header .title .sub {
   font-weight: 800;
   color: white;
 }
-/* line 214, sass/screen.scss */
+/* line 223, sass/screen.scss */
 #content .sec .half button:hover, #content .sec .full button:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
-/* line 218, sass/screen.scss */
+/* line 227, sass/screen.scss */
 #content .sec .full {
   width: 90%;
   margin: 32px 0% 0px 0px;
 }
 
-/* line 225, sass/screen.scss */
+/* line 234, sass/screen.scss */
 #block_content {
   width: 56%;
   float: left;
   margin: 0px 6% 0px 0px;
 }
-/* line 229, sass/screen.scss */
+/* line 238, sass/screen.scss */
 #block_content h1 {
   font-size: 2.5em;
 }
-/* line 233, sass/screen.scss */
+/* line 242, sass/screen.scss */
 #block_content #description p {
   line-height: 1.6;
   font-weight: 400;
   margin: 16px 0px;
 }
 
-/* line 242, sass/screen.scss */
+/* line 251, sass/screen.scss */
 #block_side {
   width: 37%;
   float: left;
 }
-/* line 246, sass/screen.scss */
+/* line 255, sass/screen.scss */
 #block_side h1 {
   font-size: 1.5em;
 }
-/* line 249, sass/screen.scss */
+/* line 258, sass/screen.scss */
 #block_side #funding, #block_side #watchers, #block_side #posted, #block_side #followers, #block_side #supporters, #block_side #days {
   margin: 0px 0px 32px 0px;
 }
-/* line 251, sass/screen.scss */
+/* line 260, sass/screen.scss */
 #block_side #funding .num, #block_side #watchers .num, #block_side #posted .num, #block_side #followers .num, #block_side #supporters .num, #block_side #days .num {
   font-size: 2.4em;
   font-weight: 800;
 }
-/* line 255, sass/screen.scss */
+/* line 264, sass/screen.scss */
 #block_side #funding .title, #block_side #watchers .title, #block_side #posted .title, #block_side #followers .title, #block_side #supporters .title, #block_side #days .title {
   margin: 7px 0px;
   font-weight: 800;
 }
-/* line 260, sass/screen.scss */
+/* line 269, sass/screen.scss */
 #block_side #posted .title {
   color: #666666;
 }
-/* line 263, sass/screen.scss */
+/* line 272, sass/screen.scss */
 #block_side #support {
   margin: 0px 0px 32px 0px;
 }
-/* line 265, sass/screen.scss */
+/* line 274, sass/screen.scss */
 #block_side #support button {
   display: inline;
   border: none;
@@ -374,12 +385,12 @@ header .title .sub {
   font-weight: 800;
   color: white;
 }
-/* line 275, sass/screen.scss */
+/* line 284, sass/screen.scss */
 #block_side #support button:hover {
   background-color: #54d45b;
 }
 
-/* line 281, sass/screen.scss */
+/* line 290, sass/screen.scss */
 .square {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #e6e6e6), color-stop(100%, #ebebeb));
   background-image: -webkit-linear-gradient(#e6e6e6 60%, #ebebeb);
@@ -395,14 +406,28 @@ header .title .sub {
   margin: 0px 0px 1px 0px;
 }
 
-/* line 292, sass/screen.scss */
+/* line 301, sass/screen.scss */
 footer {
   width: 100%;
+  height: 70px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #333333), color-stop(100%, #4d4d4d));
   background-image: -webkit-linear-gradient(#333333 60%, #4d4d4d);
   background-image: -moz-linear-gradient(#333333 60%, #4d4d4d);
   background-image: -o-linear-gradient(#333333 60%, #4d4d4d);
   background-image: -ms-linear-gradient(#333333 60%, #4d4d4d);
   background-image: linear-gradient(#333333 60%, #4d4d4d);
-  height: 200px;
+}
+/* line 305, sass/screen.scss */
+footer ul {
+  position: relative;
+  top: 20px;
+  width: 900px;
+  margin: 0px auto;
+  list-style-type: none;
+  color: #b3b3b3;
+}
+/* line 312, sass/screen.scss */
+footer ul li {
+  display: inline;
+  margin: 0px 20px 0px 0px;
 }
