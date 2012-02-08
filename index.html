@@ -3,24 +3,73 @@ layout: default
 title: Home
 ---
 
-<div id="home">
-  
-  <div class="about">
-    I'm a CS PhD student at Stanford, an entrepreneur, and a writer. Read more about me on my <a href="/academic.html">academic</a> and <a href="professional.html">professional</a> pages. Subscribe to <a href="/atom.xml">my feed</a>, or follow me on <a href="http://twitter.com/unignorant">twitter</a> or <a href="http://github.com/ejhfast">github.</a>
+<div id='top_nav'>
+  <div class='title'>
+    <div id='cloud'>
+      <button>Get the Code</button>
+    </div>
+    <h1>
+      Test your JavaScript automatically.
+    </h1>
+    <span>
+      We harness the power of type annotations and program specifications to make your code robust. It's <em>easy</em> to get started.
+    </span>
   </div>
-  
-  <h1>WRITINGS</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date_to_string }} </span></li>
-    {% endfor %}
-  </ul>
-
-  <h1>OPEN SOURCE PROJECTS</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/ejhfast/Gajure/">Gajure:</a> Genetic algorithm framework in Clojure.</li>
-    <li><a href="http://github.com/ejhfast/Clustering-in-Haskell/">K-means:</a> A k-means library in Haskell.</li>
-    <li><a href="http://github.com/ejhfast/fahs/">Finite Automata:</a> A finite automata library in Haskell.</li>
-    <li><a href="http://github.com/ejhfast/Clogger/">Clogger:</a> A blogging framework in Clojure.</li>
-  </ul>
+</div>
+<div id='content'>
+  <div class='sec'>
+    <h1>
+      <span class='num'>1.</span>
+      Annotate your functions with type signatures.
+    </h1>
+    <div class='half'>
+      <img src='/resources/ex1.png'/>
+    </div>
+    <div class='half'>
+      <img src='/resources/ex2.png'/>
+    </div>
+    <div class='clear'></div>
+    <div class='half'>
+      <h1>add_all :: [Number] -> Number</h1>
+      <p>
+        The function
+        <em>add_all</em>
+        sums a list of numbers. It takes one argument (a list of type Number) and
+        returns a single Number.
+      </p>
+    </div>
+    <div class='half'>
+      <h1>my_prop :: {name:String, valid:Boolean} -> Boolean</h1>
+      <p>
+        The function
+        <em>my_prop</em>
+        takes an object with two fields, name (a String) and valid (a Boolean),
+        and it returns a Boolean which depends on the state of valid.
+      </p>
+    </div>
+    <div class='clear'></div>
+  </div>
+  <div class='sec'>
+    <h1>
+      <span class='num'>2.</span>
+      <span='prox'>TYPED<span class="red">JS</span></span>
+      tests the annotated functions automatically.
+    </h1>
+    <div class='full'>
+      <img src='/resources/ex_out.png'/>
+    </div>
+    <div class='clear'></div>
+    <div class='full'>
+      <h1>Type signatures specify program correctness</h1>
+      <p>
+        <span='prox'>TYPED<span class="red">JS</span></span>
+        uses a function's type signature to generate input parameters, and evaluates the function upon these inputs to form a test case. This test case fails if an exception occurs, or the output violates function constraints. While type signatures provide
+        <em>a limited form</em>
+        of program specification,
+        <span='prox'>TYPED<span class="red">JS</span></span>
+        adds a quick and rigorous sanity check to your deployment pipeline.
+      </p>
+    </div>
+    <div class='clear'></div>
+  </div>
 </div>

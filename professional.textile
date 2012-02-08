@@ -1,8 +1,0 @@
----
-layout: post
-title: Professional
----
-
-h1. {{ page.title | upcase }}
-
-I'm now working on "Proxino":http://proxino.com, which graduated from <a href="http://ycombinator.com">Y Combinator</a> in the summer of 2011.
