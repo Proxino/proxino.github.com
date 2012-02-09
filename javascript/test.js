@@ -28,3 +28,13 @@ function fullname(obj){
 function join_char(c1,c2){
   return c1;
 }
+
+//+ test_obj :: {name:String, email:String} -> {name:String, email:String}
+function test_obj(o){
+  return o;
+}
+
+//+ test_or :: {name:String, email:String} -> {name:String, email:String} | Boolean
+function test_or(o){
+  return {name:"Etan",email:"ok"};
+};
