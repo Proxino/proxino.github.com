@@ -36,5 +36,15 @@ function test_obj(o){
 
 //+ test_or :: {name:String, email:String} -> {name:String, email:String} | Boolean
 function test_or(o){
-  return {name:"Etan",email:"ok"};
+  if(Math.round(Math.random())===0){
+    return {name:"Etan",email:"ok"};
+  }
+  else{
+    return "t"; //true;
+  }
 };
+
+//+ test_arr :: String | Number -> String -> [String | Number]
+function test_arr(s1,s2){
+  return [s1,s2];
+}
